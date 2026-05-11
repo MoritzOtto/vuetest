@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Only security updates, always recreate closed MRs",
+  "extends": ["config:recommended"],
+
+  "recreateWhen": "always",
+  "recreateClosed": true,
+  "lockFileMaintenance": { "enabled": true }
+}
