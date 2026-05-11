@@ -18,7 +18,7 @@ jobs:
       RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
       RENOVATE_AUTODISCOVER: "false"
       RENOVATE_REPOSITORIES: ${{ github.repository }}
-      GITHUB_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_COM_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
 
     steps:
       - name: Run Renovate
